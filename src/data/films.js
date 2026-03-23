@@ -104,6 +104,14 @@ export const FILMS = [
     category: "core-crime",
     categoryLabel: "Core crime / corruption",
   },
+  {
+    id: "taxi-driver-1976",
+    title: "Taxi Driver",
+    year: 1976,
+    synopsis: "Alienated Vietnam veteran descends into violent vigilantism in New York.",
+    category: "core-crime",
+    categoryLabel: "Core crime / corruption",
+  },
 
   // Spy / thriller
   {
@@ -143,6 +151,30 @@ export const FILMS = [
     title: "Capricorn One",
     year: 1977,
     synopsis: "Astronauts forced to fake a Mars landing escape to reveal the truth.",
+    category: "spy-thriller",
+    categoryLabel: "Spy / thriller",
+  },
+  {
+    id: "rear-window-1954",
+    title: "Rear Window",
+    year: 1954,
+    synopsis: "Wheelchair-bound photographer suspects his neighbour of murder.",
+    category: "spy-thriller",
+    categoryLabel: "Spy / thriller",
+  },
+  {
+    id: "vertigo-1958",
+    title: "Vertigo",
+    year: 1958,
+    synopsis: "Retired detective becomes obsessed with a woman he was hired to follow.",
+    category: "spy-thriller",
+    categoryLabel: "Spy / thriller",
+  },
+  {
+    id: "psycho-1960",
+    title: "Psycho",
+    year: 1960,
+    synopsis: "Secretary on the run checks into a remote motel with a deadly secret.",
     category: "spy-thriller",
     categoryLabel: "Spy / thriller",
   },
@@ -229,6 +261,40 @@ export const FILMS = [
     synopsis: "Writer navigates relationships and life in New York.",
     category: "classic-drama",
     categoryLabel: "Classic Hollywood drama",
+  },
+  {
+    id: "citizen-kane-1941",
+    title: "Citizen Kane",
+    year: 1941,
+    synopsis: "Reporters investigate the life and final word of a newspaper tycoon.",
+    category: "classic-drama",
+    categoryLabel: "Classic Hollywood drama",
+  },
+
+  // World cinema
+  {
+    id: "rashomon-1950",
+    title: "Rashomon",
+    year: 1950,
+    synopsis: "Four conflicting accounts of a murder in a forest.",
+    category: "world-cinema",
+    categoryLabel: "World cinema",
+  },
+  {
+    id: "bicycle-thieves-1948",
+    title: "Bicycle Thieves",
+    year: 1948,
+    synopsis: "Father and son search post-war Rome for a stolen bicycle.",
+    category: "world-cinema",
+    categoryLabel: "World cinema",
+  },
+  {
+    id: "seven-samurai-1954",
+    title: "Seven Samurai",
+    year: 1954,
+    synopsis: "Villagers hire seven warriors to defend against bandits.",
+    category: "world-cinema",
+    categoryLabel: "World cinema",
   },
 
   // Comedy / lighter nights
@@ -382,6 +448,22 @@ export const FILMS = [
     category: "modern",
     categoryLabel: "Modern anchors",
   },
+  {
+    id: "2001-a-space-odyssey-1968",
+    title: "2001: A Space Odyssey",
+    year: 1968,
+    synopsis: "Humanity encounters a mysterious monolith that shapes its evolution.",
+    category: "modern",
+    categoryLabel: "Modern anchors",
+  },
+  {
+    id: "mulholland-drive-2001",
+    title: "Mulholland Drive",
+    year: 2001,
+    synopsis: "Aspiring actress and amnesiac woman unravel identity in dreamlike Los Angeles.",
+    category: "modern",
+    categoryLabel: "Modern anchors",
+  },
 ]
 
 export const CATEGORY_ORDER = [
@@ -389,6 +471,7 @@ export const CATEGORY_ORDER = [
   "spy-thriller",
   "silent-early",
   "classic-drama",
+  "world-cinema",
   "comedy",
   "romance",
   "war-political",
@@ -400,6 +483,7 @@ export const CATEGORY_LABELS = {
   "spy-thriller": "Spy / thriller",
   "silent-early": "Silent / early cinema",
   "classic-drama": "Classic Hollywood drama",
+  "world-cinema": "World cinema",
   "comedy": "Comedy / lighter nights",
   "romance": "Romance",
   "war-political": "War and political",
