@@ -1,12 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
-  <circle cx="16" cy="16" r="13" stroke="#C49A4A" stroke-width="2"/>
-  <circle cx="16" cy="16" r="4.5" fill="#C49A4A"/>
-  <circle cx="16" cy="5"  r="2" fill="#C49A4A"/>
-  <circle cx="16" cy="27" r="2" fill="#C49A4A"/>
-  <circle cx="5"  cy="16" r="2" fill="#C49A4A"/>
-  <circle cx="27" cy="16" r="2" fill="#C49A4A"/>
-  <circle cx="8.5"  cy="8.5"  r="2" fill="#C49A4A"/>
-  <circle cx="23.5" cy="23.5" r="2" fill="#C49A4A"/>
-  <circle cx="23.5" cy="8.5"  r="2" fill="#C49A4A"/>
-  <circle cx="8.5"  cy="23.5" r="2" fill="#C49A4A"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Reel body -->
+  <circle cx="16" cy="16" r="15" fill="#C49A4A"/>
+  <!-- Center hub cutout -->
+  <circle cx="16" cy="16" r="5" fill="#0B1A1A"/>
+  <!-- Center hub inner dot -->
+  <circle cx="16" cy="16" r="2" fill="#C49A4A"/>
+  <!-- 4 film holes at cardinal positions -->
+  <circle cx="16" cy="7"  r="3" fill="#0B1A1A"/>
+  <circle cx="25" cy="16" r="3" fill="#0B1A1A"/>
+  <circle cx="16" cy="25" r="3" fill="#0B1A1A"/>
+  <circle cx="7"  cy="16" r="3" fill="#0B1A1A"/>
 </svg>
